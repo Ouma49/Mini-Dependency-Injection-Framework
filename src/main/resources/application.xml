@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean id="messageService" class="com.di.framework.example.EmailService"/>
+    
+    <bean id="notificationService" class="com.di.framework.example.NotificationService">
+        <constructor-arg ref="messageService"/>
+    </bean>
+</beans> 
