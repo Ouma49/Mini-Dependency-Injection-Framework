@@ -170,7 +170,7 @@ public class NotificationService {
 ### Building the Project
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/Ouma49/Mini-Dependency-Injection-Framework.git
 
 # Navigate to project directory
 cd mini-di-framework
